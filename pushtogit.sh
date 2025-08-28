@@ -75,10 +75,10 @@ else
     fi
 fi
 
-# === Step 4: Commit & Push ===
+# === Step 4: Commit & Force Push ===
 git add .
 git commit -m "Backup update: $(date +"%H:%M %d-%m-%Y")" || echo -e "${CYAN}No changes to commit.${RESET}"
-git push -u origin main
+git push origin main --force
 
-echo -e "${GREEN}Push to GitHub completed successfully via SSH!${RESET}"
+echo -e "${GREEN}Force push to GitHub completed successfully via SSH!${RESET}"
 
