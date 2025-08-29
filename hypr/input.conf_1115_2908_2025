@@ -7,7 +7,7 @@
 
 # refer to Hyprland wiki for more info https://wiki.hyprland.org/Configuring/Variables/
 
-# NOTE: some settings are in ~/.config/hypr/UserConfigs/UserDecorAnimations.conf
+
 
 
 
@@ -70,7 +70,7 @@ misc {
   swallow_regex = ^(kitty)$
   focus_on_activate = false
   initial_workspace_tracking = 0
-  middle_click_paste = false
+  middle_click_paste = true
   enable_anr_dialog = true    # Application not Responding (ANR)
   anr_missed_pings = 15       # ANR Threshold default 1 is too low
 }
